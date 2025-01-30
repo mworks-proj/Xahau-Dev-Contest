@@ -1,0 +1,65 @@
+/* Ensure Tailwind CSS setup */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sticky Header Styles */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 200; /* Ensures header stays above other elements */
+  background-color: rgba(0, 0, 0, 0.9); /* Slight transparency */
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+}
+
+/* Header Link Styles */
+header a {
+  text-decoration: none;
+}
+
+/* Header Hover Effects */
+nav button:hover {
+  background-color: rgba(255, 255, 255, 0.052); /* Subtle hover effect */
+}
+
+/* Mobile Dropdown Styles */
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.052);
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Utility for responsive text alignment */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Default Mobile Styles */
+.network-selector__button {
+  background-color: var(--color-network-bg);
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .network-selector__button {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+/* Prevent body scroll issues */
+body {
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  min-height: 100vh;
+}
