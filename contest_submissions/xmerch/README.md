@@ -161,8 +161,8 @@ pnpm run dev
 
 ## 11. Contact / Feedback
 
-- **Team**: [Your Name / Team Name]
-- **Email**: [team@yourdomain.com]
+- **Team**: XMerch by Meister w/ MWORKS
+- **Email**: xrplworks@gmail.com
 - **Issues**: [GitHub Issues](https://github.com/your-org/xmerch-contest/issues)
 
 > We welcome feedback from contest judges and community devs!
